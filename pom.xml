@@ -36,6 +36,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	<repository>
+		<id>student-service</id>
+		<name>student-service</name>
+		<url>http://65.0.11.252:8081/repository/student-service/</url>
+	</repository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
